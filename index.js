@@ -49,6 +49,10 @@ app.post('/percentages', (req, res) => {
   });
 });
 
+app.post('/thanks', (req, res) => {
+  res.render('thanks');
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
